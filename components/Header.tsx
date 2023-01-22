@@ -7,6 +7,8 @@ import SiteMetadata from "./MetaData";
 export default function Header() {
     return (
         <header>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css" />
+            
             <NavBar />
             <div className="header flex light-bg">
                 <div>
@@ -30,7 +32,7 @@ export default function Header() {
                     <h1 className="white">Building High-Performance Solutions.</h1>
                     <h1 className="white">Elevating User Experience!</h1>
                     <p className="gray">I design and build efficent systems and also high quality user experiences.</p>
-                    <a className="green" href="https://www.linkedin.com/in/kyle-maurer/" target="_blank">Let&#39;s chat!</a>
+                    <a className="green" href="https://www.linkedin.com/in/kyle-maurer/" target="_blank" rel="noreferrer">Let&#39;s chat!</a>
                 </div>
                 <Image src="/images/banner.png" width={567} height={429} alt="blaiti" />
             </div>

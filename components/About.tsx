@@ -63,7 +63,7 @@ export default function About() {
                     <h3 className="white">Discover the wide range of skills and expertise that make me a versatile developer, capable of handling any project.</h3>
                     <p className="gray">
                         As a developer, I have a diverse set of skills that allow me to tackle any project. My expertise includes front-end and back-end development, as well as experience in DevOps and cloud technologies. <br /><br />
-                        I am highly adaptable and always eager to learn new tools and technologies. Whether it's building a responsive website or designing a scalable backend system, I have the skills and knowledge to get the job done. I am excited to work on challenging projects and to continue growing as a developer.</p>
+                        I am highly adaptable and always eager to learn new tools and technologies. Whether it&#39;s building a responsive website or designing a scalable backend system, I have the skills and knowledge to get the job done. I am excited to work on challenging projects and to continue growing as a developer.</p>
                 </div>
             </div>
 
@@ -82,6 +82,7 @@ export default function About() {
                 <i className="fa-brands fa-wordpress"></i>
                 <i className="fa-brands fa-square-js"></i>
             </div>
+            <script src="https://kit.fontawesome.com/e4446002ed.js" crossOrigin="anonymous"></script>
         </section>
     )
 }
@@ -132,7 +133,7 @@ function BulletPoints({ list }: List) {
     return (
         <ul>
             {list.map((item: any) => (
-                <li>{item}</li>
+                <li key={item.id}>{item}</li>
             ))}
         </ul>
     )
