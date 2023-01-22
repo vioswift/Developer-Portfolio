@@ -133,7 +133,7 @@ function BulletPoints({ list }: List) {
     return (
         <ul>
             {list.map((item: any) => (
-                <li key={item.id}>{item}</li>
+                <li key={item}>{item}</li>
             ))}
         </ul>
     )
