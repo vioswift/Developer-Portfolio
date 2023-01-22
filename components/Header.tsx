@@ -6,9 +6,7 @@ import SiteMetadata from "./MetaData";
 
 export default function Header() {
     return (
-        <header>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css" />
-            
+        <header>            
             <NavBar />
             <div className="header flex light-bg">
                 <div>

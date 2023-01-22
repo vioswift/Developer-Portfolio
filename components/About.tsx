@@ -82,7 +82,6 @@ export default function About() {
                 <i className="fa-brands fa-wordpress"></i>
                 <i className="fa-brands fa-square-js"></i>
             </div>
-            <script src="https://kit.fontawesome.com/e4446002ed.js" crossOrigin="anonymous"></script>
         </section>
     )
 }

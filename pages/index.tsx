@@ -24,6 +24,9 @@ const Home: NextPage = () => {
         <meta data-rh="true" property="og:type" content="website" />
         <meta data-rh="true" property="og:title" content={SiteMetadata.title} />
         <meta data-rh="true" property="og:image" content="/images/banner.png" />
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css" />
+        <script src="https://kit.fontawesome.com/e4446002ed.js" crossOrigin="anonymous"></script>
       </Head>
 
       {/* Header */}
