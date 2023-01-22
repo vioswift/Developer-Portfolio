@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
 
+:root {
+  --theme-color: #4dba87;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -28,7 +32,7 @@ h1, h2, h3, h4, h5, h6, p {
   color: #777777;
 }
 .green {
-  color: #4dba87;
+  color: var(--theme-color);
 }
 .flex {
   display: flex;
@@ -51,10 +55,12 @@ button {
   color: #2D2E32;
   font-size: 0.8rem;
   font-weight: 600;
-  background-color: #4dba87;
+  background-color: var(--theme-color);
   cursor: pointer;
 }
-
+ul {
+  color: var(--theme-color);
+}
 /* Header */
 nav {
   padding: 1.1rem 5rem;
@@ -139,6 +145,10 @@ nav ul li {
 }
 .partners {
   padding-top: 5rem;
+}
+.partners i {
+  font-size: 5rem;
+  color: #747474;
 }
 
 /* Footer */
