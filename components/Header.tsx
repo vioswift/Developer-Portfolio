@@ -32,7 +32,7 @@ export default function Header() {
                     <p className="gray">I design and build efficent systems and also high quality user experiences.</p>
                     <a className="green" href="https://www.linkedin.com/in/kyle-maurer/" target="_blank" rel="noreferrer">Let&#39;s chat!</a>
                 </div>
-                <Image src="/images/banner.png" width={567} height={429} alt="blaiti" />
+                <Image src="/images/banner.png" width={567} height={429} alt="kyle maurer banner" />
             </div>
         </header>
     )
