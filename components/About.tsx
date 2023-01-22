@@ -108,7 +108,6 @@ function AboutCard({ title, icon, description, leftList, rightList, projects }: 
                 <Image src={icon} width={28} height={28} alt={title} />
             </div>
             <p className="white">{description}</p>
-
             <div className="container">
                 <div className="row">
                     <div className="col">
