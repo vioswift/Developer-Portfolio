@@ -19,6 +19,7 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <meta property="og:site_name" content={SiteMetadata.name} />
+        <meta property="og:description" content={SiteMetadata.description} />
         <meta property="og:locale" content="en_GB" />
         <title data-rh="true">{SiteMetadata.title}</title>
         <meta data-rh="true" property="og:type" content="website" />
