@@ -9,7 +9,7 @@ export default function About() {
                 <div className="flex-full">
                     <AboutCard
                         title="Front-end"
-                        icon="/icons/design.svg"
+                        icon={<i className="fa-solid fa-pen-nib"></i>}
                         description="I can create and design websites with many technologies."
                         leftList={[
                             'React / NextJS', 
@@ -24,7 +24,7 @@ export default function About() {
                         projects={6} />
                     <AboutCard
                         title="Back-end"
-                        icon="/icons/code.svg"
+                        icon={<i className="fa-solid fa-code"></i>}
                         description="I develop back-end systems."
                         leftList={[
                             'C#', 
@@ -39,7 +39,7 @@ export default function About() {
                         projects={6} />
                     <AboutCard
                         title="DevOps / Cloud"
-                        icon="/icons/phone.svg"
+                        icon={<i className="fa-solid fa-cloud"></i>}
                         description="I can build and design infrastructure, and love cloud and serverless technologies."
                         leftList={[
                             'AWS', 
@@ -88,7 +88,7 @@ export default function About() {
 
 type Props = {
     title: string,
-    icon: string | StaticImageData,
+    icon: any,
     description: string,
     leftList: any[],
     rightList: any[]
@@ -104,7 +104,8 @@ function AboutCard({ title, icon, description, leftList, rightList, projects }: 
         <div className="light-bg about-card">
             <div className="flex justify-space">
                 <h3 className="green">{title}</h3>
-                <Image src={icon} width={28} height={28} alt={title} />
+                {/* <Image src={icon} width={28} height={28} alt={title} /> */}
+                {icon}
             </div>
             <p className="white">{description}</p>
             <div className="container">

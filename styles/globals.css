@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap');
 
 :root {
-  --theme-color: #4dba87;
+  --theme-color: #FFA500;
 }
 
 body {
@@ -78,6 +78,11 @@ nav ul li {
 .header {
   justify-content: space-between;
   padding: 1.1rem 5rem 0rem 5rem;
+  padding-bottom: 2rem;
+}
+.header img {
+  height: auto;
+  width: 23rem;
 }
 .header h1 {
   margin: auto;
@@ -124,6 +129,9 @@ nav ul li {
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: underline;
+}
+.about-card i {
+  color: var(--theme-color);
 }
 .about-text h1 {
   margin-top: 1rem;
@@ -184,6 +192,9 @@ footer ul li {
   }
   .header {
     padding: 2rem 2rem 0rem 2rem;
+  }
+  .header img {
+    width: 100%;
   }
   section {
     padding: 1rem 2rem;
