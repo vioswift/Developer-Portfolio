@@ -2,10 +2,6 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 import SiteMetadata from "./MetaData";
 
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faUser, faDocker } from "@fortawesome/free-solid-svg-icons";
-// import { faDocker } from "@fortawesome/free-regular-svg-icons";
-
 export default function About() {
     return (
         <section id="about" className="dark-bg">
@@ -78,8 +74,6 @@ export default function About() {
                 <Image src="/images/partners/directy.png" height={45} width={180} alt="directy" />
                 <Image src="/images/partners/telefy.png" height={45} width={180} alt="telefy" /> */}
                 <i className="fa-brands fa-docker"></i>
-                {/* <FontAwesomeIcon icon={faUser} />
-                <FontAwesomeIcon icon={faDocker} /> */}
                 <i className="fa-brands fa-css3-alt"></i>
                 <i className="fa-brands fa-aws"></i>
                 <i className="fa-brands fa-windows"></i>
